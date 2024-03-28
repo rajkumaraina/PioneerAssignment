@@ -1,0 +1,93 @@
+.HomeContainer{
+    padding:12px;
+    width: 75vw;
+}
+
+.PricesHeading{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#ffffff;
+    font-size:25px;
+}
+
+.UnorderedList{
+    padding: 0px;
+    display:flex;
+}
+.chart{
+    background-color: #1a1a1a;
+}
+.greeting-container{
+    display: flex;
+}
+.description{
+    color:white;
+    font-size:20px;
+    margin-top:0px;
+}
+.span-description{
+    color:#7CFC00
+}
+.right-bg-container{
+    display: flex;
+    min-width:80%;
+    justify-content:space-between ;
+    align-items: center;
+}
+.hand-wave-icon{
+    color:orange;
+    height:30px;
+    width:30px;
+    margin-top:20px;
+    margin-left:10px
+}
+.greeting-heading{
+    color:white;
+    font-size:28px;
+   
+}
+.startTradeButton{
+    padding:8px;
+    outline:none;
+    cursor: pointer;
+    border:0 none;
+    color:#ffffff;
+    font-size:22px;
+    border-radius: 8px;
+    margin-right:20px;
+    background-color: green;
+}
+.Mbchart{
+    display:none;
+}
+@media (max-width:576px){
+    .chart{
+        display: none;
+    }
+    .HomeContainer{
+        width:110vw;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Mbchart{
+        background-color: #1a1a1a;
+        display:flex;
+    }
+    .right-bg-container{
+        width:100vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .description{
+        text-align: center;
+    }
+    .startTradeButton{
+        margin-right: 0px;
+    }
+    .UnorderedList{
+        flex-direction: column;
+    }
+    
+}

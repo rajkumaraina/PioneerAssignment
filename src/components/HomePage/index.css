@@ -1,0 +1,106 @@
+.mainContainer{
+    display: flex;
+    font-family: "Roboto";
+    background-color: #000000;
+    padding-left: 0px;
+    padding-top: 0px;
+    height:170vh;
+}
+.icon-container{
+    display: none;
+}
+
+@media (max-width:576px) {
+    .mainContainer{
+        flex-direction: column;
+        width:120vw;
+    }
+    .mbNav{
+        display: none;
+    }
+    .icon-container{
+        display:flex;
+        justify-content: space-between;
+        padding:20px;
+        align-items: center;
+        background-color: #1a1a1a;
+    }
+    .list-item2{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .unorder-list1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 110vw;
+        font-family: "Roboto";
+        margin-bottom: 50px;
+        padding-left: 35px;
+        background-color: #1a1a1a;
+        margin-top:0px;
+        
+    }
+    .profile-cont1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 105vw;
+    background-color: #404040;
+    padding:15px;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    margin-left: 0px;
+    }
+    .list-item1{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        
+    }
+    .count{
+        background-color:  #00b300;
+        height: 20px;
+        width: 30px;
+        color:#000000;
+        font-size: 15px;
+        border-radius: 3px;
+        text-align:center;
+        margin-left: 20px;
+        
+    }
+    .icon-31{
+        height: 25px;
+        width: 30px;
+        color:#ffffff;
+        margin-right: 15px;
+    }
+    .para11{
+        font-size: 18px;
+        font-family: "Roboto";
+        color:#ffffff;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+    .icon-41{
+        height: 25px;
+        width: 30px;
+        color:#00b300;
+        margin-right: 15px;
+    }
+    .para21{
+        font-size: 18px;
+        font-family: "Roboto";
+        color:#00b300;
+        font-weight: 500;
+        margin-left: 10px;
+    }
+
+}
